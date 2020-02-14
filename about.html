@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关于我</title>
+    <link href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.css" rel="stylesheet">
+    <link href="./static/css/me.css" rel="stylesheet">
+</head>
+<body>
+<!--导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted stackable secondary menu">
+            <h2 class="ui header teal item">东东Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="icon idea"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="icon tags"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="icon clone"></i>归档</a>
+            <a href="#" class="active m-item item m-mobile-hide"><i class="icon info"></i>关于我</a>
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted input transparent">
+                    <input type="text" placeholder="搜索...">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui black icon button m-top-right m-mobile-show menu toggle">
+        <i class="icon sidebar"></i>
+    </a>
+</nav>
+<!--中间内容-->
+<div class="m-padded-tb-large m-container">
+    <div class="ui container">
+        <div class="ui stackable grid">
+            <div class="eleven wide column">
+                <div class="ui segment">
+                    <img src="https://picsum.photos/id/123/800/600" alt="" class="image ui rounded">
+                </div>
+            </div>
+            <div class="five wide column">
+                <div class="ui top attached segment">
+                    <div class="ui header">关于我</div>
+                </div>
+                <div class="ui attached segment">
+                    <p class="m-text">胡东东，自由开发者。</p>
+                    <p class="m-text">胡东东，自由开发者。</p>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui orange basic left pointing label">编程</div>
+                    <div class="ui orange basic left pointing label">游戏</div>
+                    <div class="ui orange basic left pointing label">唱歌</div>
+                    <div class="ui orange basic left pointing label">指弹</div>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">java</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">js</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">node</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">php</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">vue</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">laravel</div>
+                </div>
+                <div class="ui bottom attached segment">
+                    <a href="#" class="ui icon button circular"><i class="icon github"></i></a>
+                    <a href="#" class="ui icon button circular wechat"><i class="icon wechat"></i></a>
+                    <a href="#" class="ui icon button circular qq" data-content="406811064"><i class="icon qq"></i></a>
+                    <a href="#" class="ui icon button circular"><i class="icon facebook"></i></a>
+                    <a href="#" class="ui icon button circular google" data-content="huchao1001@gmail.com"><i class="icon google"></i></a>
+                </div>
+
+                <div class="ui wechat-qr flowing popup transition hidden">
+                    <img src="./static/images/wechat.png" alt="" class="rounded image ui" style="width: 100px">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<footer class="ui inverted segment vertical m-padded-tb-max">
+    <div class="ui container center aligned">
+        <div class="ui stackable grid inverted divided">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img class="ui rounded image" src="./static/images/wechat.png" style="width: 110px" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header  m-text-thin ">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户的故事（User Story）</a>
+                    <a href="#" class="item">用户的故事（User Story）</a>
+                    <a href="#" class="item">用户的故事（User Story）</a>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header  m-text-thin ">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email: huchao1001@gmail.com</a>
+                    <a href="#" class="item">QQ: 4068110641</a>
+                </div>
+            </div>
+            <div class="six wide column">
+                <h4 class="ui inverted header m-text-spaced m-text-thin m-text-lined">FiveEggs</h4>
+                <p class="inverted left aligned  m-text-thin m-opacity-mini ">
+                    大噶好~我系福东东！这是我的个人博客，不定期分享编程，写作，思考的相关内容，希望可以给来到这里的人有所帮助</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider">
+            <p class="m-text-spaced m-text-thin m-opacity-mini m-text-lined" style="padding-top: 30px">Copyright © 2020
+                - 2030 FiveEggs Designed by FiveEggs</p>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.js"></script>
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    })
+    $('.qq').popup()
+    $('.google').popup()
+    $('.wechat').popup({
+        popup: $('.wechat-qr.popup'),
+        on: 'click',
+        position: 'bottom center',
+    })
+</script>
+</html>
